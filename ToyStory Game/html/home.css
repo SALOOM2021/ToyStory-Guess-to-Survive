@@ -1,0 +1,130 @@
+body {
+    background-color: rgb(213, 216, 213);
+    margin: 0; /* * Remove extra spacing */
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+header {
+    height: 800px;
+    width: 100%;
+    background: url("https://i.imgur.com/iFaXEo4.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center; /* * Center button horizontally */
+    align-items: center; /* * Center button vertically */
+}
+
+button {
+    background-color: rgba(23, 20, 20, 0.3);
+    padding: 20px;
+    font-size: 18px;
+    color: aliceblue;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 400px;
+    width: 300px;
+}
+
+button:hover {
+    background-color: rgba(137, 130, 130, 0.3);
+    color: rgb(255, 255, 255);
+}
+h2{
+    font-size: 34px;
+    color: rgb(33, 175, 55);
+    margin-top: 20px;
+    font-size: 36px;
+    
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.intro{
+    margin: 20px auto;
+    padding: 10px;
+    font-size: 24px;
+    text-align: justify;
+    width: 80%;
+    line-height: 2;
+
+}
+.characters {
+    display: flex;
+    justify-content: space-around; /* * Space out images */
+    align-items: center;
+    margin: 50px 0;
+    text-align: center;
+}
+
+.character-img {
+    width: 150px;
+    height: auto;
+    border-radius: 10%;
+}
+#character-header{
+    text-align: center;
+}
+#buzz{
+    height: 300px;
+    width: 200px;
+}
+#bo-peep{
+    height: 300px;
+    width: 170px;
+}
+
+#modes-header {
+    text-align: center;
+    margin: 30px 0;
+}
+.modes-img {
+    width: 300px;
+    height: 250px;
+    border-radius: 10%;
+    margin-left: 20px;
+}
+.instructions-container {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    
+}
+
+.instructions-container h3 {
+    margin-bottom: 20px;
+}
+
+.instructions-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+}
+
+.instructions-list li {
+    width: 250px; /* Adjust as needed for spacing */
+    margin: 30px;
+}
+footer {
+    background-color: rgb(33, 175, 55);
+    color: rgb(246, 246, 246);
+    font-style: italic;
+    text-align: center;
+    height: 50px;
+    
+    bottom: 0;
+    width: 100%;
+}
+#empowering-p{
+    margin: 20px auto;
+    padding: 10px;
+    font-size: 24px;
+    text-align: justify;
+    width: 80%;
+    line-height: 2;
+}
